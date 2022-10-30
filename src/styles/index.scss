@@ -1,0 +1,11 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@import "./app";
+
+// features
+@import "../features/features";
+
+// common
+@import "./common/styles.scss";

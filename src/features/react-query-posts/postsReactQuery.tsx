@@ -14,7 +14,7 @@ import {
 } from "./postsReactQueryService";
 
 // This Part is implemented with "react-query"
-export function PostsReactQuery() {
+export default function PostsReactQuery() {
    // use query client
    const queryClient: QueryClient = useQueryClient();
 

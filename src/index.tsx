@@ -6,6 +6,7 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 // import './index.css';
 import "./styles/index.scss";
+import * as serviceWorker from "./sw-register";
 
 // react-query Client, Provider
 import { QueryClient, QueryClientProvider } from "react-query";
@@ -28,3 +29,5 @@ root.render(
 );
 
 reportWebVitals();
+serviceWorker.register();
+serviceWorker.sendPermission();

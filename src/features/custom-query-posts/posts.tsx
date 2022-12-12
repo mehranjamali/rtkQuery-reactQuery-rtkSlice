@@ -15,7 +15,7 @@ import { postType } from "../../contexts/custom-query/types";
 import PostsList from "../../components/post/postsList";
 
 // This Part is implemented with "custom-query"
-export function Posts() {
+export default function Posts() {
    const { mutation, select } = useCustomQuery();
 
    useFetch(fetchAllPostsCommand());

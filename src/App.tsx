@@ -1,8 +1,5 @@
 import { HashRouter as Router } from "react-router-dom";
 
-// toast
-import { Slide, ToastContainer } from "react-toastify";
-
 import "./App.css";
 
 // custom-query Provider

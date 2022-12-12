@@ -1,3 +1,17 @@
+# Simple CRUD app with react-query rtk-query rtk-slice
+I implemented this app to 3 way using (react-query, rtk-query, rtk-slice) without extra refetch
+### react-query 
+`useMutation` callback (`onSuccess`, `onError`) in this example I updated data in cache manually and don't use refetch
+### rtk-query 
+I add an async function `onQueryStarted` to mutation endpoint to update data in cache manually don't using `tags`, Pessimistic Updates
+### rtk-slice 
+You can view a live demo over at [https://mehranjamali.github.io](https://mehranjamali.github.io)\
+You can see better example in [Github/mehranjamali/project-1](https://github.com/mehranjamali/mehranjamali.github.io-source_code/tree/master/sample-project-1)
+
+
+You can find code in here [features](https://github.com/mehranjamali/rtkQuery-reactQuery-rtkSlice/tree/main/src/features)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) TS template.
